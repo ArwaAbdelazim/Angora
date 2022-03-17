@@ -1,0 +1,250 @@
+.main-color
+{
+    color: #F05757 !important;
+}
+/*//////////////////////////////////////////////////////////*/
+.home .nav-item
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar::after
+{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color:rgba(255, 255, 255,0.5);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.home .nav-link
+{
+    transition: 0.5s all;
+}
+.home .nav-link:hover
+{
+    color: #F05757 !important;
+}
+.nav-icons .icon
+{
+    width: 30px;
+    height: 30px;
+}
+.nav-icons .icon i
+{
+    color: white;
+    transition: 0.5s all;
+}
+.nav-icons .icon i:hover
+{
+    color: #F05757 !important;
+}
+/*//////////////////////////////////////////////////////////*/
+.home .arousel-item h1
+{
+    font-size: 70px;
+}
+.home .carousel-item
+{
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.home .carousel-item h1
+{
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.home .settings-icon
+{
+    background-color: #1f2528;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.home .settings-icon .icon
+{
+    width: 40px;
+    height: 40px;
+}
+.home .settings-icon .icon i
+{
+    color: white;
+}
+/*//////////////////////////////////////////////////////////*/
+.title h3
+{
+    font-size: 5rem;
+    color: #f1f1f1;
+}
+.title h2
+{
+    font-size: 3rem;
+}
+.title::after
+{
+    content: "";
+    width: 5%;
+    height: 1px;
+    background-color:black;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 1s all;
+}
+.title-div:hover .title::after
+{
+    width: 10%;
+
+}
+.progress
+{
+    
+    height: 0.3rem;
+    
+}
+.progress-bar
+{
+    background-color: #F05757;
+}
+/*////////////////////////////////////////////////////*/
+.team .team-item img
+{
+    transition: 0.5s all;
+  
+}
+.team .team-item:hover img
+{
+    transform: scale(1.1,1.1);
+}
+.team .team-layer
+{
+    transition: 0.5s all;
+}
+.team .nav-icons
+{
+    opacity: 0;
+    transition: 0.5 all;
+}
+.team .team-layer:hover
+{
+    background-color: rgba(242, 84, 84, 0.85);
+}
+.team .team-layer:hover .nav-icons
+{
+    opacity: 1;
+}
+.team h5
+{
+    transition: 0.5s all;
+}
+.team h5:hover
+{
+    color: #F05757;
+}
+/*/////////////////////////////////////////////////////*/
+.btn-color
+{
+    background-color: #F05757 !important ;
+}
+/*///////////////////////////////////////////////////////*/
+.services
+{
+    background-color: #fafafa;
+}
+.services .servises-icon
+{
+    width: 40px;
+    height: 40px;
+}
+.services .servises-icon i
+{
+    color:#F05757;
+    font-size: 2rem;
+}
+.services .services-title
+{
+    transition: 0.5s all;
+}
+.services .services-title:hover
+{
+    color:#F05757;
+}
+/*///////////////////////////////////////////////////////*/
+.carousel-indicators [data-bs-target]
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-indent: 0;
+}
+/*///////////////////////////////////////////////////////*/
+.contact
+{
+    background-color: #fafafa;
+}
+.contact .contact-icon
+{
+    width: 40px;
+    height: 40px;
+}
+.contact .contact-icon i
+{
+    color:#F05757;
+    font-size: 2rem;
+}
+.contact .contact-title
+{
+    transition: 0.5s all;
+}
+.contact .contact-title:hover
+{
+    color:#F05757;
+}
+.contact .contact-item2::after
+{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color:rgba(0, 0, 0,0.3);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+/*/////////////////////////////////////////////*/
+.section8
+{
+    background: #222;
+}
+.section8 h5
+{
+    padding-bottom: 10px;
+}
+.section8 .section8-item a
+{
+    color: white;
+    transition: 0.5s all;
+}
+.section8 .section8-item a:hover
+{
+   color: #F05757 !important;
+}
+/*/////////////////////////////////////////////*/
+.last-sec
+{
+    background: #1a1a1a;
+}
+.last-sec .angora a
+{
+    transition: 0.5s all;
+}
+.last-sec .angora a:hover
+{
+    color: #F05757 !important;
+}
